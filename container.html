@@ -40,9 +40,68 @@
                     </div>
                 </div>
             </nav>
-        </header>
+        </header><br><br>
 
-        
+        <h1>Форма реєстрації на змагання</h1>
+
+        <form  method="POST">
+            <label for="текст">Введіть прізвище, ім'я та по батькові:</label>
+            <input type="text" id="текст" name="текст" required><br><br>
+    
+            <label for="радіо">Оберіть стать:</label><br>
+            <input type="radio" id="радіо1" name="радіо" value="вибір1">
+            <label for="радіо1">Чоловіча</label><br>
+            <input type="radio" id="радіо2" name="радіо" value="вибір2">
+            <label for="радіо2">Жіноча</label><br><br>
+
+    
+            <select id="випадаючий-список" name="випадаючий-список">
+                <option value="варіант1">Виберіть змагання</option>
+                <option value="варіант1">Чемпіонат світу серед юніорів 2024</option>
+                <option value="варіант2">Чемпіонат Європи серед юніорів 2025</option>
+                <option value="варіант3">Чемпіонат світу серед юніорів 2026</option>
+            </select><br><br>
+    
+            <label for="текстова-область">Текстова область:</label><br>
+            <textarea id="текстова-область" name="текстова-область" rows="4" cols="50"></textarea><br><br>
+            <input type="checkbox" id="чекбокс" name="чекбокс" value="погоджуюсь">
+            <label for="чекбокс">Погоджуюсь з тим, що буде оброблена особиста інформація</label><br><br>
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Скинути">
+        </form><br><br><br>
+        <h1>Замовлення форми</h1>
+        <form  method="POST">
+            <label for="текст">Введіть прізвище, ім'я та по батькові:</label>
+            <input type="text" id="текст" name="текст" required><br><br>
+    
+            <label for="радіо">Оберіть стать:</label><br>
+            <input type="radio" id="радіо1" name="радіо" value="вибір1">
+            <label for="радіо1">Чоловіча</label><br>
+            <input type="radio" id="радіо2" name="радіо" value="вибір2">
+            <label for="радіо2">Жіноча</label><br><br>
+
+            <label for="пароль">Введіть номер телефону для підтвердження вашої особи(прийде код):</label>
+            <input type="tel" id="пароль" name="пароль" required><br><br>
+            <label for="пароль">Рядок для введення коду з смс:</label>
+            <input type="password" id="пароль" name="пароль" required><br><br>
+
+    
+            <label for="випадаючий-список">Оберіть розмір:</label>
+            <select id="випадаючий-список" name="випадаючий-список">
+                <option value="варіант1">XS</option>
+                <option value="варіант2">S</option>
+                <option value="варіант3">M</option>
+                <option value="варіант3">L</option>
+                <option value="варіант3">XL</option>
+                <option value="варіант3">XXL</option>
+            </select><br><br>
+    
+            <label for="текстова-область">Пропишіть додаткові особливості вашої фігури(якщо є):</label><br>
+            <textarea id="текстова-область" name="текстова-область" rows="4" cols="50"></textarea><br><br>
+    
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Скинути">
+        </form><br><br><br>
         
         <h3>Посилання на зовнішній ресурс:</h3>
         <a class="mb-4 nav-link text-decoration-underline" href="https://worldathletics.org/" target="_blank">Зовнішній
