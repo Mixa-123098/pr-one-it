@@ -1,0 +1,58 @@
+.link-map {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-map a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+
+}
+
+.link-map a:hover {
+    text-decoration: underline;
+}
+
+.link-map a::before {
+    content: "♥ ";
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.ass {
+    font-family: "Open Sans", Impact;
+
+}
+
+.anim {
+    font-size: 2.5rem;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        text-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+    }
+
+    25% {
+        text-shadow: 10px 4px 10px rgba(0,0,0,0.6);
+    }
+
+    50% {
+        text-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+    }
+    75%{
+        text-shadow: -10px 4px 10px rgba(0,0,0,0.6);
+    }
+    100% {
+        text-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+    }
+}
+.card_img{
+    filter: brightness(50%) !important;
+    -webkit-filter: brightness(50%);
+}
